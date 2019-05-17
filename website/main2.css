@@ -1,0 +1,132 @@
+html{
+	font-size: 1.6rem;
+	font-family: 'Orbitron', sans-serif;
+}
+.content2{
+text-align: center;
+	background-position: center;
+	position:relative;
+	height: 95vh;
+	background-image:
+		url(img/cool2.gif);
+		background-size: cover;
+		-webkit-clip-path: polygon(50% 0%, 100% 5%, 100% 100%, 50% 95%, 0 100%, 0 5%);
+clip-path: polygon(50% 0%, 100% 5%, 100% 100%, 50% 95%, 0 100%, 0 5%);
+}
+	.flexbox{
+position: relative;
+	display: flex;
+align-content: center;
+justify-content: space-around;
+background-color: red;
+top: 50%
+left:50%
+}
+.maincontainer{
+position: absolute+;
+width: 250px;
+height: 320px;
+top: 70%;
+left:43%;
+}
+.thecard{
+position: absolute;
+width: 100%;
+height: 100%;
+transform-style: preserve-3d;
+transition: all 0.5s ease;
+}
+.thecard:hover{
+transform: rotateY(180deg);
+}
+.thefront{
+position: absolute;
+width: 100%;
+height:100%;
+backface-visibility: hidden;
+background:#c5ccd8;
+color:black;
+border-radius: 20px
+}
+.theback{
+position: absolute;
+width: 100%;
+height:100%;
+backface-visibility: hidden;
+background:#c5ccd8;
+color:black;
+transform: rotateY(180deg);
+border-radius: 20px
+}
+.maincontainer2{
+position: relative;
+width: 250px;
+height: 320px;
+top: 20%;
+left:43%;
+}
+.thecard2{
+position: absolute;
+width: 100%;
+height: 100%;
+transform-style: preserve-3d;
+transition: all 0.5s ease;
+}
+.thecard2:hover{
+transform: rotateY(180deg);
+}
+.thefront2{
+position: absolute;
+width: 100%;
+height:100%;
+backface-visibility: hidden;
+background:#f49569;
+color:black;
+border-radius: 20px
+}
+.theback2{
+position: absolute;
+width: 100%;
+height:100%;
+backface-visibility: hidden;
+background:#f49569;
+color:black;
+transform: rotateY(180deg);
+border-radius: 20px
+}
+.maincontainer3{
+position: relative;
+width: 250px;
+height: 320px;
+top: 45%;
+left:43%;
+}
+.thecard3{
+position: absolute;
+width: 100%;
+height: 100%;
+transform-style: preserve-3d;
+transition: all 0.5s ease;
+}
+.thecard3:hover{
+transform: rotateY(180deg);
+}
+.thefront3{
+position: absolute;
+width: 100%;
+height:100%;
+backface-visibility: hidden;
+background:#ead54d;
+color:black;
+border-radius: 20px
+}
+.theback3{
+position: absolute;
+width: 100%;
+height:100%;
+backface-visibility: hidden;
+background:#ead54d;
+color:black;
+transform: rotateY(180deg);
+border-radius: 20px
+}

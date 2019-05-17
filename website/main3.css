@@ -1,0 +1,41 @@
+html{
+	font-size: 1.6rem;
+
+}
+.content3{
+text-align: center;
+	background-position: center;
+	position:relative;
+	height: 95vh;
+	background-image:
+		url(img/cool4.gif);
+		background-size: cover;
+		-webkit-clip-path: polygon(50% 0%, 100% 5%, 100% 100%, 50% 95%, 0 100%, 0 5%);
+		clip-path: polygon(50% 0%, 100% 5%, 100% 100%, 50% 95%, 0 100%, 0 5%);
+}
+.future{
+	padding: 2rem;
+	color: yellow;
+	font-size: 3rem;
+	font-family: 'Orbitron', sans-serif;
+	top: 100%;
+	left: 13%
+}
+.rocket{
+	position: absolute;
+	left: 10%;
+	top: 20%;
+	z-index: -1;
+}
+.rocke2{
+	position: absolute;
+	left: 10%;
+	top: 500%;
+	z-index: -1;
+}
+.rocket3{
+	position: absolute;
+	left: 10%;
+	top: 20%;
+	z-index: -1;
+}
